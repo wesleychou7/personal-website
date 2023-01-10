@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* for full screen scroll snapping */
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.whole{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/* lining */
+.container{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* START NAVBAR */
+/* .container .row{
+    border-bottom: 1px solid black;
+} */
+li{
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid black;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+}
+/* END NAVBAR */
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer */
+/* end footer */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
