@@ -11,27 +11,29 @@
     
 <body>
     <div class="whole">
+
         <div class="container">
+
+            <!-- Navbar -->
+            <header>
+                <div class="row">
+                    <a href="#">
+                        <li class="col-md-3 col--3">HOME</li>
+                    </a>
+                    <a href="#">
+                        <li class="col-md-3">ABOUT ME</li>
+                    </a>
+                    <a href="#">
+                        <li class="col-md-3">EXPERIENCES</li>
+                    </a>
+                    <a href="#">
+                        <li class="col-md-3">CONTACT</li>
+                    </a>
+                </div>
+            </header>
 
             <!-- HOME PAGE -->
             <section class="home">
-                <!-- Navbar -->
-                <header>
-                    <div class="row">
-                        <a href="#">
-                            <li class="col-md-3 col--3">HOME</li>
-                        </a>
-                        <a href="#">
-                            <li class="col-md-3">ABOUT ME</li>
-                        </a>
-                        <a href="#">
-                            <li class="col-md-3">EXPERIENCES</li>
-                        </a>
-                        <a href="#">
-                            <li class="col-md-3">CONTACT</li>
-                        </a>
-                    </div>
-                </header>
 
                 <!-- picture of myself -->
                 <div class="col-md-6 me-image">
@@ -40,9 +42,9 @@
                 <!-- introduction -->
                 <div class="col-md-6 right-justify">
                     <div class="paragraph">
-                        <p id="greet-text">Hey there, my name is<p>
+                        <p id="greet-text">Hey there &#128075, my name is<p>
                         <p id="big-name">WESLEY<br>CHOU</p>
-                        <p id="greet-text">and welcome to my profile!</p>
+                        <p id="greet-text">Welcome to my profile! &#127881</p>
                     </div>
                 </div>
                 
@@ -50,17 +52,22 @@
 
             <!-- ABOUT ME PAGE -->
             <section class="about-me">
-                <h1>ABOUT ME PAGE</h1>
-                <!-- Main Content -->
-                <!-- <div class="container">
-                    <div class="row">
-                        <p>Hey there, my name is 
-                            WESLEY 
-                            Chou
-                            and welcome to my 
-                        </p>
-                    </div>
-                </div> -->
+                <!-- picture of myself -->
+                <div class="col-md-6">
+                    <p id="about-text">ABOUT<br>ME</p>
+                </div>
+                <!-- introduction -->
+                <div class="col-md-6 right-justify">
+                    <p class="paragraph left-justify" id="about-paragraph">
+                        I am a father of 3, an avid comic book and sports card collector, and have 
+                        a passion for combining marketing and technology to create experiences 
+                        that drive results. For over 13+ years as a data-driven Growth and Digital 
+                        Marketing leader, I have lead teams to generate demand and drive revenue 
+                        growth in a wide variety of industries, including recently at Ent Credit 
+                        Union, Colorado's largest credit union closing in on $10bn in assets, and 
+                        over 430k+ members.
+                    </p>
+                </div>
             </section>
 
             <section class="experiences">
@@ -72,7 +79,17 @@
             </section>
         </div>
     </div>
-        
+    
+    <!-- <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+        }
+    </script> -->
 
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
