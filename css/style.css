@@ -80,6 +80,17 @@ header{
     margin-right: 50px;
     margin-left: 20px;
 }
+#experience-title{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#experience-text{
+
+}
+#experience-paragraph{
+
+}
+
 
 /* circle image*/
 .me-image img{
