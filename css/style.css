@@ -24,19 +24,17 @@ section{
 }
 
 /* START NAVBAR */
-li{
+.navlink{
     font-size: 20px;
     text-align: center;
     list-style: none;
     padding: 10px;
     background-color: white;
-    border-bottom: 2px solid black;
-}
-a li{
     text-decoration: none;
     color: black;
+    border-bottom: 2px solid black;
 }
-li:hover{
+.navlink:hover{
     background-color: rgb(204, 177, 224);
 }
 header{
@@ -76,29 +74,43 @@ header{
     top: 50%;
     transform: translateY(-50%);
 }
+
 .paragraph{
     margin-right: 50px;
     margin-left: 20px;
 }
-#experience-title{
-    margin-top: 20px;
-    font-size: 30px;
-}
+
 #experience-text{
-
+    font-size: 40px;
 }
-#experience-paragraph{
-
+#experience-date-location{
+    font-size: 25px;
+    color: rgb(90, 89, 89);
+}
+#experience-text, #experience-date-location, #sony-logo-image{
+    margin-left: 20px;
+}
+ul{
+    margin: 20px;
+    font-size: 20px;
+    
+}
+ul li{
+    margin-bottom: 15px;
 }
 
 
-/* circle image*/
+/* images*/
 .me-image img{
     height: 400px;
     width: 400px;
     border-radius: 100%;
     border: 2px solid black;
     margin-left: 50px;
+}
+#sony-logo-image{
+    max-width: 40%;
+    margin-bottom: 50px;
 }
 
 
