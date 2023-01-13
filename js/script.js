@@ -3,11 +3,11 @@ const whole = document.querySelector(".whole");
 
 // Get all sections that have an ID defined
 const sections = document.querySelectorAll("section[id]");
-console.log(sections);
+
+
 
 // Add an event listener listening for scroll
 whole.addEventListener("scroll", navHighlighter);
-
 function navHighlighter() {
 
     // Get height of each section (every section has same height)
@@ -32,3 +32,17 @@ function navHighlighter() {
     }
 }
 navHighlighter();
+
+
+
+// On-click copy to clipboard button
+function copyToClipboard(){
+    // Get the email text
+    var copyText = document.getElementById("email");
+  
+    // Copy the email text to user's clipboard
+    navigator.clipboard.writeText(copyText.innerHTML);
+
+    var image = document.getElementById("copy-button-image");
+    image.setAttribute("src", "images/green-checkmark.png");
+}
