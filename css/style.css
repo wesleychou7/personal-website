@@ -82,6 +82,12 @@ li.navlink.active{
     top: 50%;
     transform: translateY(-50%);
 }
+.col-md-12{ /* coming soon text for blog page*/
+    position: relative;
+    top: 46%;
+    font-size: 50px;
+    text-align: center;
+}
 
 .paragraph{
     margin-right: 50px;
