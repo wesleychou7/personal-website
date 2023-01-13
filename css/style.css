@@ -34,7 +34,10 @@ section{
     color: black;
     border-bottom: 2px solid black;
 }
-.navlink:hover{
+li.navlink{
+    transition: 0.3s ease;
+}
+li.navlink:hover{
     background-color: rgb(204, 177, 224);
 }
 header{
@@ -43,6 +46,11 @@ header{
     z-index: 10000;
 }
 /* END NAVBAR */
+
+/* active navbar */
+li.navlink.active{
+    background-color: rgb(204, 177, 224);
+}
 
 
 /* left or right justify */
@@ -112,9 +120,6 @@ ul li{
     max-width: 40%;
     margin-bottom: 50px;
 }
-
-
-
 
 
 
