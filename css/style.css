@@ -79,7 +79,7 @@ li.navlink.active{
 .col-md-6{
     /* border: 1px solid red; */
     position: relative;
-    top: 50%;
+    top: 52%;
     transform: translateY(-50%);
 }
 .col-md-12{ /* coming soon text for blog page*/
@@ -88,12 +88,10 @@ li.navlink.active{
     font-size: 50px;
     text-align: center;
 }
-
 .paragraph{
     margin-right: 50px;
     margin-left: 20px;
 }
-
 #experience-text{
     font-size: 40px;
 }
@@ -107,12 +105,29 @@ li.navlink.active{
 ul{
     margin: 20px;
     font-size: 20px;
-    
 }
 ul li{
     margin-bottom: 15px;
 }
-
+#skills-title{
+    font-size: 100px;
+}
+#skills-text{
+    font-size: 30px;
+}
+#skills-paragraph{
+    font-size: 25px;
+    margin-top: 40px;
+}
+#contact-title{
+    font-size: 80px;
+}
+#contact-text{
+    font-size: 25px;
+}
+#skills-title, #skills-text, #contact-title, #contact-text{
+    margin-left: 50px;
+}
 
 /* images*/
 .me-image img{
@@ -125,6 +140,12 @@ ul li{
 #sony-logo-image{
     max-width: 40%;
     margin-bottom: 50px;
+}
+.logo{
+    max-width: 15%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 
